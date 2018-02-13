@@ -1,0 +1,9 @@
+<?php
+/*
+* Implements hook_help().
+*/
+function first_help($path, $arg) {
+  if ($path == 'admin/help#first') {
+    return t('A demonstration module.');
+  }
+}
